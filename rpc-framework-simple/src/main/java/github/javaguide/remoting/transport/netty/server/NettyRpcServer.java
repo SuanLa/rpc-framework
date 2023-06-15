@@ -32,9 +32,6 @@ import java.util.concurrent.TimeUnit;
 /**
  * Server. Receive the client message, call the corresponding method according to the client message,
  * and then return the result to the client.
- *
- * @author shuang.kou
- * @createTime 2020年05月25日 16:42:00
  */
 @Slf4j
 @Component

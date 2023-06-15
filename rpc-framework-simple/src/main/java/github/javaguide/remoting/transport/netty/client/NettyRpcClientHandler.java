@@ -24,9 +24,6 @@ import java.net.InetSocketAddress;
  * <p>
  * 如果继承自 SimpleChannelInboundHandler 的话就不要考虑 ByteBuf 的释放 ，{@link SimpleChannelInboundHandler} 内部的
  * channelRead 方法会替你释放 ByteBuf ，避免可能导致的内存泄露问题。详见《Netty进阶之路 跟着案例学 Netty》
- *
- * @author shuang.kou
- * @createTime 2020年05月25日 20:50:00
  */
 @Slf4j
 public class NettyRpcClientHandler extends ChannelInboundHandlerAdapter {

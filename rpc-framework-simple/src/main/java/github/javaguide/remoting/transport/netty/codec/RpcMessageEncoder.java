@@ -34,9 +34,6 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 1B compress（压缩类型） 1B codec（序列化类型）    4B  requestId（请求的Id）
  * body（object类型数据）
  * </pre>
- *
- * @author WangTao
- * @createTime on 2020/10/2
  * @see <a href="https://zhuanlan.zhihu.com/p/95621344">LengthFieldBasedFrameDecoder解码器</a>
  */
 
